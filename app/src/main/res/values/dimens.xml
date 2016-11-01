@@ -1,9 +1,0 @@
-<resources>
-    <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="margem_top_tela_leitura">50dp</dimen>
-    <dimen name="separa_leitura">15dp</dimen>
-    <dimen name="tam_edit_text">40dp</dimen>
-    <dimen name="tam_fonte_titulo">20dp</dimen>
-</resources>

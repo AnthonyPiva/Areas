@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tela_leitura_triangulo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.univali.anthonypiva.calcareas.trian">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Digite base e altura do triângulo"
+            android:textSize="@dimen/tam_fonte_titulo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margem_top_tela_leitura"
+            android:text="Base"
+            android:textSize="@dimen/tam_fonte_titulo"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tam_edit_text"
+            android:id="@+id/BaseT"
+            android:inputType="number"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/separa_leitura"
+            android:text="Altura"
+            android:textSize="@dimen/tam_fonte_titulo"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tam_edit_text"
+            android:id="@+id/AlturaT"
+            android:inputType="number"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="#4a80aa"
+        android:textColor="#ffffff"
+        android:text="Avançar"
+        android:id="@+id/CT"
+        android:onClick="CalT"/>
+
+</RelativeLayout>
